@@ -265,6 +265,7 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
+    {"_Rblpapi_bql", (DL_FUNC) &_Rblpapi_bql, 1},
     {"_Rblpapi_authenticate_Impl", (DL_FUNC) &_Rblpapi_authenticate_Impl, 5},
     {"_Rblpapi_bdh_Impl", (DL_FUNC) &_Rblpapi_bdh_Impl, 10},
     {"_Rblpapi_bdp_Impl", (DL_FUNC) &_Rblpapi_bdp_Impl, 7},
